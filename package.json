@@ -4,8 +4,8 @@
   "description": "url shortner",
   "main": "src/app.ts",
   "scripts": {
-    "start:dev": "ts-node src/app.ts",
-    "start:deployed": "node app.js",
+    "start": "ts-node src/app.ts",
+    "start:prod": "node app.js",
     "test": "jest",
     "build": "tsc"
   },

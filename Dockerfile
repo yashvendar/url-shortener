@@ -11,6 +11,6 @@ COPY --from=build /home/url-shortner/*.json .
 COPY --from=build /home/url-shortner/.env .
 RUN ls -al
 RUN npm i --omit=dev
-CMD ["npm", "run", "start:deployed"]
+CMD ["npm", "run", "start:prod"]
 EXPOSE 3000
 
